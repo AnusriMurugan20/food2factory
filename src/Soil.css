@@ -1,0 +1,82 @@
+.farm-and-retail-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 10px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.image img {
+  
+  max-width: 50%;
+  height: auto;
+  padding-right: 100px;
+  margin-bottom:150px;
+  margin-top: 190px;
+}
+
+.info {
+  margin-left: 20px;
+  color: #333;
+
+}
+
+.info h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin: 10px 0;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #159d57; /* Adjust color as needed */
+}
+
+.steps {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.step {
+  display: flex;
+  
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.step-number {
+  display: inline-block;
+  background-color: #159d57; /* Adjust color as needed */
+  color: white;
+  border-radius: 40%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.step-text {
+  font-size: 1em;
+}
+/* 
+
+.farm-section .step-number {
+  background-color: #159d57; 
+}
+
+.retail-section .step-number {
+  background-color: #28a745; 
+} */

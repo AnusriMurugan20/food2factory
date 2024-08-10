@@ -1,0 +1,101 @@
+
+.signup-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.signup-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.signup-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 0.3rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 70%;
+  z-index: 1;
+}
+
+.logo {
+  width: 140px;
+  height: 100px;
+  /* margin: 0 auto 20px auto; */
+  display: block;
+  padding-left: 130px;
+  
+  /* padding-top: 30px;  */
+}
+
+.input {
+  padding: 0 20px;
+}*
+
+.signup-card h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.signup-btn {
+  background: linear-gradient(to right, #10ff40, #2fae39);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.signup-btn:hover {
+  background: linear-gradient(to right, #21b43e, #2fae39);
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+
+a {
+  color: #ff105f;
+  text-decoration: none;
+}
+
+h4:hover {
+  color:darkgreen;
+}
+
+/* Custom styles for text fields */
+.MuiInputBase-input {
+  color: black;
+}
+
+.MuiInputLabel-root {
+  color: black;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: black;
+}
+
+.MuiInput-underline:before {
+  border-bottom: 1px solid black;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid black;
+}

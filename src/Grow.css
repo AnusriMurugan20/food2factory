@@ -1,0 +1,106 @@
+
+.form-card-unique {
+  position: relative;
+  max-width: 450px;
+  margin: auto;
+  padding: 20px;
+  width: 30%;
+  border: 1px solid rgba(204, 204, 204, 0.4); /* Slightly transparent border */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.4); /* Transparent background */
+  margin-top: 2rem;
+  
+}
+.backg{
+  background-image: url('https://img.freepik.com/free-photo/large-green-rice-field-with-green-rice-plants-rows_181624-28862.jpg?size=626&ext=jpg&ga=GA1.1.206813572.1721884738&semt=ais_hybrid'); /* Replace with your image path */
+  background-size: cover; /* Adjust the image size */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; 
+  margin-top: -20px;
+  
+}
+
+.close-button-unique {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+.form-container-unique h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.form-container-unique p {
+  text-align: center;
+  font-size: 14px;
+  color: #0a2f0c;
+}
+
+.form-group-unique {
+  margin-bottom: 1rem;
+}
+
+.form-group-unique label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group-unique input[type="text"],
+.form-group-unique input[type="email"] {
+  width: 80%;
+  padding: 0.5rem;
+  border: 1px solid #ce4e4e;
+  border-radius: 4px;
+}
+
+.form-group-unique .checkbox-group-unique {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.form-group-unique .checkbox-group-unique input {
+  margin-right: 0.5rem;
+}
+
+.form-group-unique .checkbox-group-unique label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group-unique .checkbox-group-unique span {
+  font-size: 12px;
+  color: #073e14;
+}
+
+.grow-btn-unique button {
+  display: block;
+  width: 40%;
+  margin-left: 120px;
+  padding: 0.75rem;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.grow-btn-unique button:hover {
+  background-color: #45a049;
+}
+
+.notification-unique {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #5890de;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+.media-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.media-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.media-logo {
+    max-width: 150px;
+    margin: 10px;
+}

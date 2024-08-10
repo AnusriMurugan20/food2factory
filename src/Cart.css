@@ -1,0 +1,135 @@
+.cart-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cart-container {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.checkout-container {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-component{
+    padding: 10px;
+    text-align: center;
+}
+
+.cart-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.quantity {
+    color: darkgreen;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cart-item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart-item-quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item-quantity button {
+    background-color: #0daf1d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container {
+    padding: 50px;
+    
+   
+} 
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.half-width {
+    display:inline-block;
+    gap: 20px;
+}
+
+.half-width input {
+    width: 50%;
+    display:inline-block;
+    
+}
+
+.form-group.third-width {
+    flex-direction: row;
+    gap: 10px;
+}
+
+.third-width input {
+    width: 33.3%;
+}
+
+.phone-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.country-code {
+    width: 100px;
+}
+
+.cartbutton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cartbutton:hover {
+    background-color: #0056b3;
+}

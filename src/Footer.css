@@ -1,0 +1,151 @@
+.footer {
+  background: #83BD75;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer-about h2,
+.footer-links h3,
+.footer-contact h3,
+.footer-newsletter h3 {
+  color: rgb(8, 7, 3);
+  margin-bottom: 20px;
+}
+
+.footer-about p,
+.footer-newsletter p {
+  margin-bottom: 20px;
+  text-align: left;
+  color: white;
+}
+
+.footer-social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  color: #83BD75;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-social-icons a:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li {
+  border: 2px solid transparent;
+  transition: padding 0.4s ease, border-color 0.3s ease;
+}
+
+.footer-links ul li:hover,
+.footer-links ul li:focus,
+.footer-links ul li:active {
+  padding: 3px;
+  transform: scale(1.05);
+}
+
+.footer-links ul li a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer-links ul li a svg {
+  margin-right: 5px;
+}
+
+.footer-contact .contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-contact .contact-icon {
+  margin-right: 10px;
+  background: #fff;
+  color: #2a7018;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+
+.footer-newsletter form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-newsletter form input {
+  padding: 20px;
+  border: none;
+  font-weight: bold;
+  margin-right: 20px;
+  width: calc(100% - 150px); /* Adjust to give space for the button */
+}
+
+.footer-newsletter form .subscribe-button {
+  /* padding: 15px; */
+  padding-top: 5px;
+  padding-right: 16px;
+  border: none;
+  background: #318337;
+  color: black;
+  cursor: pointer;
+  border-radius: 35px;
+  width: 200px;
+  height:7vh ;
+  padding-bottom: 2px;
+  
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-newsletter form .subscribe-button:hover {
+  background-color: white;
+  color: #5fef6b;
+}
+
+.footer-credit-icons svg {
+  margin-right: 10px;
+  font-size: 40px;
+  color: white;
+}
+.footer-credit-icons svg:hover{
+  color:white;
+  background-color: darkgreen;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: #010e07;
+}
+.subscribe{
+   
+   margin-left:10px ;
+}

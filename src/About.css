@@ -1,0 +1,68 @@
+.about-us-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.about-us-page-text-section {
+  max-width: 50%;
+  flex: 1;
+  padding-right: 40px;
+}
+
+.about-us-heading {
+  font-size: 26px;
+  color: #28a745; /* Green color for "About Us" */
+  margin-bottom: 10px;
+
+}
+
+/* .about-us-page-text-section h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.2;
+} */
+
+
+
+.about-us-page-text-section p {
+  font-size: 19px;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.about-us-page-signup-button {
+  font-size: 16px;
+  color: #fff;
+  background-color: rgb(22, 61, 22);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.about-us-page-signup-button:hover {
+  background-color: #55a65e;
+}
+
+.about-us-page-image-section {
+  flex: 1;
+  text-align: center;
+  padding-left: 40px;
+  display: flex;
+  
+}
+
+.about-us-page-image-section img {
+  max-width: 90%;
+  border-radius: 30px;
+  padding-left: 40px;
+  padding-top: 30%;
+
+}

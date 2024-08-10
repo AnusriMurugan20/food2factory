@@ -1,0 +1,121 @@
+.login-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.8); /* Adjusted for transparency */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:1%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 70%;
+  z-index: 1;
+}
+
+.logo2 {
+  width: 140px;
+  height: 100px;
+  margin-bottom: -30px;
+  padding-left: 0px;
+}
+
+.forgot-password-link {
+  text-align: right;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.forgot-password-link a {
+  text-decoration: none;
+  color: #6200ea;
+  font-size: 0.9rem;
+}
+
+.forgot-password-link a:hover {
+  text-decoration: underline;
+}
+
+h4:hover {
+  color: black;
+}
+
+.login-btn {
+  background: linear-gradient(to right, #10ff40, #2fae39);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-btn:hover {
+  background: linear-gradient(to right, #21b43e, #2fae39);
+}
+
+.social-login {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem;
+  border-radius: 66px;
+  text-decoration: none;
+  color: white;
+  width: 40px; /* Adjusted size */
+  height: 40px; /* Adjusted size */
+}
+
+.social-btn.facebook {
+  background-color: #3b5998;
+}
+
+.social-btn.twitter {
+  background-color: #1da1f2;
+}
+
+.social-btn.google {
+  background-color: #dd4b39;
+}
+
+.signup-link {
+  text-align: center;
+}
+
+.signup-link a {
+  color: #ff105f;
+  text-decoration: none;
+}
+
+h4:hover {
+  color: darkgreen;
+}

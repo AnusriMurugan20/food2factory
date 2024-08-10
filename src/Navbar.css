@@ -1,0 +1,122 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap');
+
+.main-container {
+    margin-right: 200px;
+    padding: 0;
+    width: 120%;
+    box-sizing: border-box;
+    
+}
+
+/* Navbar Styles */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #83BD75;
+    color: rgb(43, 34, 34);
+    font-weight: bold;
+    padding: 10px 30px; /* Adjust padding */
+    z-index: 1000;
+    
+    box-sizing: border-box; /* Ensure padding is included in width */
+    
+}
+
+/* Logo Container */
+.nav-logo-container {
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+     /* Adjust margin to align the logo slightly up */
+}
+
+.nav-logo-container .navimg {
+    height: 50px;
+    border-radius: 10%;
+    margin-left: 5px;
+}
+
+/* Navbar Links */
+.navbar-links-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+   
+     /* Adjust margin */
+}
+
+.navbar-links-container a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: 'Alegreya', sans-serif;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+    
+}
+
+.navbar-links-container a:hover {
+    color: beige;
+}
+
+/* Primary Button */
+.primary-button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0; /* Align dropdown content to the right of the profile icon */
+    top: 100%; /* Position it below the icon */
+    border-radius: 5px;
+}
+
+/* Show dropdown content */
+.dropdown-content .dropdown-item {
+    color: #4E944F;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content .dropdown-item:hover {
+    background-color: #83b65e;
+}
+
+/* Ensure dropdown content is shown when dropdown is open */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Profile Icon Styles */
+.navv-icon {
+    cursor: pointer;
+    font-size: 36px;
+    color: white;
+    margin-left: 15px;
+}

@@ -1,0 +1,55 @@
+.payment-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Poppins, sans-serif;
+}
+
+.payment-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.order-summary {
+  margin-bottom: 20px;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item-details img {
+  width: 120px;
+  height: 130px;
+  margin-right: 60px;
+  margin-left: 30px;
+}
+
+.order-total {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}

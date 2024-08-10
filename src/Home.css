@@ -1,0 +1,72 @@
+.ftg-container {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ftg-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.ftg-title {
+  font-size: 2rem;
+  margin-bottom: 1px;
+  position: relative;
+  margin-right: 800px;
+}
+
+.ftg-title::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: green;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+}
+
+.ftg-divider {
+  width: 50px;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 20px;
+}
+
+.ftg-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ftg-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ftg-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.ftg-text p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.ftg-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ftg-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
