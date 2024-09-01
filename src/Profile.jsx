@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import './Profile.css';
 
-
 const Profile = () => {
   const initialUserData = {
-    name: 'Farm to Factory',
-    email: 'farm2factory@gmail.com',
+    name: 'Dayflow',
+    email: 'Dayflow@gmail.com',
     username: 'Krishna',
     password: '',
     phone: '1234567890',
@@ -31,7 +30,7 @@ const Profile = () => {
   };
 
   const handleProfilePictureChange = (e) => {
-    
+    const file = e.target.files[0];
     // Handle the file and update the profile picture accordingly
   };
 
@@ -42,10 +41,10 @@ const Profile = () => {
 
   return (
     <div className="profilepage">
-     
+      
       <div className="profile-container">
         <div className="profile-header">
-          <h2>Personal Information</h2><br/><br/>
+          <h2>Personal Information</h2>
           <button onClick={handleEditToggle} class="Probut">
             {isEditing ? 'Cancel' : 'Edit Profile'}
           </button>
@@ -56,7 +55,7 @@ const Profile = () => {
         <div className="profile-info">
           <div className="avatar-container">
             <img
-              src={isEditingPicture ?  './ProfilePictures/placeholder.jpg' : 'https://via.placeholder.com/150'}
+              src={isEditingPicture ? './ProfilePictures/placeholder.jpg' : 'https://via.placeholder.com/150'}
               alt="User Avatar"
             />
           </div>
@@ -67,7 +66,7 @@ const Profile = () => {
             <p>Gender: {user.gender}</p>
             <p>Phone: {user.phone}</p>
             {isEditing ? (
-              <div className="det">
+              <div>
                 <label>
                   Username:
                   <input

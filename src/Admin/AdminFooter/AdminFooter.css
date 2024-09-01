@@ -1,0 +1,18 @@
+.a-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #135d66;
+    color: white;
+    padding: 30px;
+
+    span {
+
+        &:first-child {
+            font-weight: bold;
+        }
+
+        &:last-child {
+            font-size: 15px;
+}}
+}

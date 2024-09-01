@@ -133,3 +133,20 @@
 .cartbutton:hover {
     background-color: #0056b3;
 }
+.checkout-button {
+    background: linear-gradient(to right, #247dd1, #5c74b8);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Poppins;
+  }
+  
+  .checkout-button:hover {
+    background: linear-gradient(to right, #43ccd3, #247a86);
+  }

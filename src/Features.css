@@ -17,7 +17,7 @@
 }
 
 .feature-item:hover {
-    background-color: #e0f7fa; /* Light cyan background on hover */
+    background-color: #8de19b; /* Light cyan background on hover */
     transform: scale(1.05); /* Slightly scale up the item on hover */
 }
 

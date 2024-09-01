@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import './Login.css';
@@ -6,9 +6,10 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import file from '../src/file.png';
 import TextField from '@mui/material/TextField';
-// import background from '../src/background.mp4';
+import { UserContext } from './UserContext';
 
 const Login = () => {
+  const { login } = useContext(UserContext);
   const navigate = useNavigate();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -18,11 +19,12 @@ const Login = () => {
     if (username && password) {
       try {
         const response = await axios.post('http://localhost:9001/login', {
-          username:username,
-          password:password,
+          username,
+          password,
         });
 
         if (response.status === 200) {
+          login(response.data); // Set the user context
           navigate('/LandingPage');
         } else {
           alert('Login failed. Please try again.');
@@ -38,9 +40,6 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      {/* <video autoPlay muted loop className="background-video">
-        <source src={background} type="video/mp4" />
-      </video> */}
       <div className="card">
         <img src={file} alt="Logo" className="logo2" />
         <h2>Login</h2>

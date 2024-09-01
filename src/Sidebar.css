@@ -1,0 +1,70 @@
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 300px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(0);
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.user-details {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.user-details p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.edit-profile-button, .logout-button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+  background-color: #4E944F;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.edit-profile-button:hover, .logout-button:hover {
+  background-color: #3a733b;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
