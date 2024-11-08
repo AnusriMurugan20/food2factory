@@ -9,6 +9,7 @@ const AdminNavbar = () => {
 
   const handleMessageClick = () => {
     setIsMenuOpen(!isMenuOpen);
+    
   };
 
   return (
@@ -26,7 +27,7 @@ const AdminNavbar = () => {
           </div>
         </div>
       </div>
-      {/* <SideMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} /> */}
+      <SideMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
     </>
   );
 }
