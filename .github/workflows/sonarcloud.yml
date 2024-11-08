@@ -23,6 +23,7 @@ jobs:
       - name: Set up JDK 11
         uses: actions/setup-java@v2
         with:
+          distribution: 'adopt'   # Specify the distribution (e.g., 'adopt', 'zulu', 'temurin')
           java-version: '11'
 
       # Step 3: Cache SonarCloud dependencies to speed up builds
@@ -38,7 +39,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # Use the token from GitHub Secrets
         run: |
           sonar-scanner \
-            -Dsonar.projectKey=<food-to-factory> \
-            -Dsonar.organization=<Food to Factory> \
+            -Dsonar.projectKey="food2factory_project_key" \  # Replace with your actual SonarCloud project key
+            -Dsonar.organization="food2factory_organization_key" \  # Replace with your SonarCloud organization key
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
